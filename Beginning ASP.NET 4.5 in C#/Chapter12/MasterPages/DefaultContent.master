@@ -1,0 +1,20 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DefaultContent.master.cs" Inherits="DefaultContent" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <img src="apress.JPG" alt="Apress" /><br />
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+          This is default content.<br />
+        </asp:contentplaceholder>
+        <i>This is a simple footer.</i>
+    </div>
+    </form>
+</body>
+</html>

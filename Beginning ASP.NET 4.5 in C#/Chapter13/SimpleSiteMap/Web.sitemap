@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title="Home" description="Home" url="~/default.aspx">
+
+    <siteMapNode title="Information" description="Learn about our company">
+      <siteMapNode title="About Us" description="How RevoTech was founded" 
+        url="~/aboutus.aspx" />
+      <siteMapNode title="Investing"
+        description="Financial reports and investor analysis"
+        url="~/financial.aspx" />
+    </siteMapNode>
+
+    <siteMapNode title="Products" description="Learn about our products"
+                 url="~/products.aspx">
+      <siteMapNode title="RevoStock"
+        description="Investment software for stock charting"
+        url="~/product1.aspx" />
+      <siteMapNode title="RevoAnalyze"
+        description="Investment software for yield analysis"
+        url="~/product2.aspx" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

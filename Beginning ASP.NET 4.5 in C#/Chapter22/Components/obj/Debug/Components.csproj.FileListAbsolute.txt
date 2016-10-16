@@ -1,0 +1,15 @@
+D:\Code\Beginning ASP.NET 3.5\Chapter23\Components\bin\Debug\Components.dll
+D:\Code\Beginning ASP.NET 3.5\Chapter23\Components\bin\Debug\Components.pdb
+D:\Code\Beginning ASP.NET 3.5\Chapter23\Components\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\Beginning ASP.NET 3.5\Chapter23\Components\obj\Debug\Components.dll
+D:\Code\Beginning ASP.NET 3.5\Chapter23\Components\obj\Debug\Components.pdb
+D:\Code\Beginning ASP.NET 4\Chapter23\Components\bin\Debug\Components.dll
+D:\Code\Beginning ASP.NET 4\Chapter23\Components\bin\Debug\Components.pdb
+D:\Code\Beginning ASP.NET 4\Chapter23\Components\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\Beginning ASP.NET 4\Chapter23\Components\obj\Debug\Components.dll
+D:\Code\Beginning ASP.NET 4\Chapter23\Components\obj\Debug\Components.pdb
+D:\Code\Beginning ASP.NET 4\Chapter22\Components\bin\Debug\Components.dll
+D:\Code\Beginning ASP.NET 4\Chapter22\Components\bin\Debug\Components.pdb
+D:\Code\Beginning ASP.NET 4\Chapter22\Components\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\Beginning ASP.NET 4\Chapter22\Components\obj\Debug\Components.dll
+D:\Code\Beginning ASP.NET 4\Chapter22\Components\obj\Debug\Components.pdb

@@ -1,0 +1,10 @@
+D:\Code\Beginning ASP.NET 3.5\Chapter23\DatabaseComponent\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\Beginning ASP.NET 3.5\Chapter23\DatabaseComponent\bin\Debug\DatabaseComponent.dll
+D:\Code\Beginning ASP.NET 3.5\Chapter23\DatabaseComponent\bin\Debug\DatabaseComponent.pdb
+D:\Code\Beginning ASP.NET 3.5\Chapter23\DatabaseComponent\obj\Debug\DatabaseComponent.dll
+D:\Code\Beginning ASP.NET 3.5\Chapter23\DatabaseComponent\obj\Debug\DatabaseComponent.pdb
+D:\Code\Beginning ASP.NET\Chapter22\DatabaseComponent\bin\Debug\DatabaseComponent.dll
+D:\Code\Beginning ASP.NET\Chapter22\DatabaseComponent\bin\Debug\DatabaseComponent.pdb
+D:\Code\Beginning ASP.NET\Chapter22\DatabaseComponent\obj\Debug\DatabaseComponent.csprojResolveAssemblyReference.cache
+D:\Code\Beginning ASP.NET\Chapter22\DatabaseComponent\obj\Debug\DatabaseComponent.dll
+D:\Code\Beginning ASP.NET\Chapter22\DatabaseComponent\obj\Debug\DatabaseComponent.pdb

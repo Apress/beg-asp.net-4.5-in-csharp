@@ -1,0 +1,9 @@
+<asp:Calendar runat="server" BackColor="White" BorderColor="Black" BorderStyle="Solid" CellSpacing="1" Font-Names="Verdana" Font-Size="9pt" ForeColor="Black" Height="250px" Width="500px" NextPrevFormat="ShortMonth" SelectionMode="Day">
+            <SelectedDayStyle BackColor="DarkOrange" ForeColor="White" />
+            <DayStyle BackColor="Orange" Font-Bold="True" ForeColor="White" />
+            <NextPrevStyle Font-Bold="True" Font-Size="8pt" ForeColor="White" />
+            <DayHeaderStyle Font-Bold="True" Font-Size="8pt" ForeColor="#333333" Height="8pt" />
+            <TitleStyle BackColor="Firebrick" BorderStyle="None" Font-Bold="True" Font-Size="12pt"
+                ForeColor="White" Height="12pt" />
+            <OtherMonthDayStyle BackColor="NavajoWhite" Font-Bold="False" ForeColor="DarkGray" />
+ </asp:Calendar>

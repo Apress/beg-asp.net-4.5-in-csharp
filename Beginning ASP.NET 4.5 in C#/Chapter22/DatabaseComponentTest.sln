@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseComponent", "DatabaseComponent\DatabaseComponent.csproj", "{18DD9096-09D9-48A4-9939-09FCE980E746}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DatabaseComponentTest", "http://localhost:50522", "{A826A442-8242-4431-87F4-DE7063DF670E}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{18DD9096-09D9-48A4-9939-09FCE980E746}|DatabaseComponent.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/DatabaseComponentTest"
+		Debug.AspNetCompiler.PhysicalPath = "DatabaseComponentTest\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DatabaseComponentTest\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DatabaseComponentTest"
+		Release.AspNetCompiler.PhysicalPath = "DatabaseComponentTest\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DatabaseComponentTest\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "DatabaseComponentTest\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Release|.NET.ActiveCfg = Release|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{18DD9096-09D9-48A4-9939-09FCE980E746}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A826A442-8242-4431-87F4-DE7063DF670E}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

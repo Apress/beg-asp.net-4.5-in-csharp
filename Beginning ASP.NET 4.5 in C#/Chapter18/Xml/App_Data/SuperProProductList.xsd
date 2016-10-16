@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<xs:schema
+    targetNamespace="http://www.SuperProProducts.com/SuperProProductList"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified"  >
+  <xs:element name="SuperProProductList">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element name="Product">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Price" minOccurs="1" type="xs:double" />
+            </xs:sequence>
+            <xs:attribute name="ID" use="required" type="xs:int" />
+            <xs:attribute name="Name" use="required"  type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<!--Created with the XmlDocument class.-->
+<SuperProProductList  >
+    <Product ID="1" Name="Chair">
+        <Price>49.33</Price>
+    </Product>
+    <Product ID="2" Name="Car">
+        <Price>43398.55</Price>
+    </Product>
+    <Product ID="3" Name="Fresh Fruit Basket">
+        <Price>49.99</Price>
+    </Product>
+</SuperProProductList>

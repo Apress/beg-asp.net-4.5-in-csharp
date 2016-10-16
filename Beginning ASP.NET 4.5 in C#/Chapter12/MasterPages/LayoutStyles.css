@@ -1,0 +1,38 @@
+﻿body 
+{
+    font-family: Calibri;
+}
+.Header
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 60px;
+  text-align: center;   
+  width: 99%;
+  background: #ffccff;  
+  
+}
+.LeftPanel
+{
+  position: absolute;
+  top: 70px;
+  left: 10px;
+  width: 160px;
+  background: #ffffcc;
+}
+.RightPanel
+{
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  width: 160px;
+  background: #ccff33
+}
+.CenterPanel
+{
+  position: absolute;
+  top: 70px;
+  margin-left: 170px;
+  margin-right: 180px;
+}

@@ -1,0 +1,48 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Navigation Test</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">
+  <table>
+    <tr>
+      <td style="width: 131px;vertical-align: top;">
+      
+          <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" BackColor="#F7F6F3"
+           DynamicHorizontalOffset="2" Font-Names="Verdana" ForeColor="#7C6F57" StaticDisplayLevels="2" StaticSubMenuIndent="10px">
+              <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+              <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+              <DynamicMenuStyle BackColor="#F7F6F3" />
+              <StaticSelectedStyle BackColor="#F7F6F3" />
+              <DynamicSelectedStyle BackColor="#5D7B9D" />
+              <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+              <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+              
+              <StaticItemTemplate>
+                <%# Eval("Text") %><br />
+                <small>
+                <%# GetDescriptionFromTitle(((MenuItem)Container.DataItem).Text) %>
+                </small>
+              </StaticItemTemplate>
+              <DynamicItemTemplate>
+                <%# Eval("Text") %><br />
+                <small>
+                <%# GetDescriptionFromTitle(((MenuItem)Container.DataItem).Text) %>
+                </small>
+              </DynamicItemTemplate>
+          </asp:Menu>
+      </td>
+      <td style="vertical-align: top; padding: 10px" >
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+      </td>
+    </tr>     
+  </table>
+  <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+</form>
+</body>
+</html>

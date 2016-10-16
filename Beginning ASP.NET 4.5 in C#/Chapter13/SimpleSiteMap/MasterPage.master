@@ -1,0 +1,46 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Navigation Test</title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table>
+        <tr>
+          <td style="width: 228px;vertical-align: top;">
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" Width="264px" Font-Size="10pt">
+              <PathSeparatorTemplate>
+                <asp:Image ID="Image1" ImageUrl="~/arrowright.gif" runat="server" />
+              </PathSeparatorTemplate>
+              <RootNodeTemplate>
+                <b>Root</b>
+              </RootNodeTemplate>
+              <CurrentNodeTemplate>
+                <%# Eval("title") %> <br /><small><i>&nbsp;<%# Eval("description") %></i></small>
+              </CurrentNodeTemplate>
+            </asp:SiteMapPath>
+            <br />
+
+            <asp:TreeView ID="TreeView1" runat="server"
+            DataSourceID="SiteMapDataSource1" ImageSet="Faq" NodeIndent="0" >
+               <ParentNodeStyle Font-Bold="False" />
+               <HoverNodeStyle Font-Underline="True" ForeColor="Purple" />
+               <SelectedNodeStyle Font-Underline="True"  />
+               <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="DarkBlue" HorizontalPadding="5px"
+                   NodeSpacing="0px" VerticalPadding="0px" />       
+            </asp:TreeView>
+         
+          </td>
+          <td style="vertical-align: top; padding: 10px; width: 301px;" bgcolor="LightGoldenrodYellow">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+          </td>
+        </tr>     
+        </table>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </form>
+</body>
+</html>

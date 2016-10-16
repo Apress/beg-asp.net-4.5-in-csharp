@@ -1,0 +1,36 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Navigation Test</title>
+  <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">
+  <table>
+    <tr>
+      <td style="width: 226px;vertical-align: top; font-size: 83%;">
+         <a href="default.aspx">Home</a><br />
+         <br />
+         Pages under the current page:<br />
+         <asp:TreeView ID="TreeView1" runat="server"
+         DataSourceID="SiteMapDataSource1" Font-Size="83%" />
+         <br />
+         The Information group of pages:<br />
+         <asp:TreeView ID="TreeView2" runat="server"
+         DataSourceID="SiteMapDataSource2" />
+      </td>
+      <td style="vertical-align: top;padding: 10px; width: 433px;" bgcolor="LightGoldenrodYellow">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" />
+      </td>
+    </tr>     
+  </table>
+  <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+   StartFromCurrentNode = "true"/>
+   <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" 
+   StartingNodeUrl = "~/information.aspx"  />
+</form>
+</body>
+</html>

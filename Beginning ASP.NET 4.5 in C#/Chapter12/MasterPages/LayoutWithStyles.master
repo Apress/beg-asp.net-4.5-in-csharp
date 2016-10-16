@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="LayoutWithStyles.master.cs" Inherits="LayoutWithStyles" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title></title>    
+    <link href="LayoutStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="Header">
+      <h1>My Header</h1>
+    </div>
+
+    <div class="LeftPanel">
+      <asp:TreeView ID="TreeView1" runat="server" Width="150px">
+        <Nodes>
+          <asp:TreeNode Text="Root" Value="New Node">
+            <asp:TreeNode Text="Page 1" Value="Page 1"></asp:TreeNode>
+            <asp:TreeNode Text="Page 2" Value="Page 2"></asp:TreeNode>
+          </asp:TreeNode>
+        </Nodes>
+      </asp:TreeView>
+    </div>
+
+    <div class="CenterPanel">
+      <asp:ContentPlaceHolder id="MainContent" runat="server">
+      </asp:ContentPlaceHolder>
+    </div>
+
+    <div class="RightPanel">
+      <asp:ContentPlaceHolder id="AdditionalContent" runat="server">
+      </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>

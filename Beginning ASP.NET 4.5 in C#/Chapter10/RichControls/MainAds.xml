@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<Advertisements>
+
+  <Ad>
+    <ImageUrl>msasp.gif</ImageUrl>
+    <NavigateUrl>http://www.microsoft.com</NavigateUrl>
+    <AlternateText>Microsoft</AlternateText>
+    <Impressions>1</Impressions>
+  </Ad>
+
+</Advertisements>
+

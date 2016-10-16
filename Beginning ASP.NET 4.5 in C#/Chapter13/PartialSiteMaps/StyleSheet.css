@@ -1,0 +1,11 @@
+body {
+ font-family: Verdana;
+}
+
+div.Box 
+{
+  padding: 5px;
+  border-width: 2px;
+  border-style: ridge;
+  background-color: Lime;
+}

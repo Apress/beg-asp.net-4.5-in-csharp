@@ -1,0 +1,10 @@
+body 
+{    
+    font-family: Verdana;
+    font-size: small; 
+}
+.Link
+{
+	text-decoration: underline;
+	color: Blue;
+}	

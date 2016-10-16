@@ -1,0 +1,47 @@
+body
+{
+	font-family: Verdana, Arial, Sans-Serif;
+	font-size: small;
+}
+
+.heading1
+{
+	font-weight: bold;
+	font-size: large;
+	color: lime;
+}
+.heading2
+{
+	font-weight: bold;
+	font-size: medium;
+	font-style: italic;
+	color: #C0BA72;
+}
+.blockText
+{
+	padding: 10px;
+	background-color: #FFFFD9;
+	border-style: solid;
+	border-width: thin;
+}
+
+.LeftPanel
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 160px;
+}
+.RightPanel
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 160px;
+}
+.CenterPanel
+{
+  margin-left: 165px;
+  margin-right: 165px;
+}
+

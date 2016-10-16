@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TableMaster.master.cs" Inherits="TableMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%">
+    <tr>
+        <td colspan="2" style="background: #ffccff">
+            <h1>My Header</h1>
+        </td>
+    </tr>
+    <tr>
+        <td style="background: #ffffcc" >
+            <asp:treeview ID="Treeview1" runat="server" Width="150px">
+                <Nodes>
+                    <asp:TreeNode Text="Root" Value="New Node">
+                        <asp:TreeNode Text="Page 1" Value="Page 1"></asp:TreeNode>
+                        <asp:TreeNode Text="Page 2" Value="Page 2"></asp:TreeNode>
+                    </asp:TreeNode>
+                </Nodes>
+            </asp:treeview>
+        </td>
+        <td>
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="background: #ccff33">
+            <i>My Footer</i>
+        </td>
+    </tr>
+    </table>
+    </form>
+</body>
+</html>

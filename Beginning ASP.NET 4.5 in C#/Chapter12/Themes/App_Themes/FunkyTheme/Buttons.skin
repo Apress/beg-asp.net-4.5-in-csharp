@@ -1,0 +1,8 @@
+
+
+<asp:ImageButton runat="server" SkinID="OKButton" 
+ ImageUrl="ButtonImages/buttonOK.jpg" />
+ 
+ <asp:ImageButton runat="server" SkinID="CancelButton" 
+ ImageUrl="ButtonImages/buttonCancel.jpg" />
+ 

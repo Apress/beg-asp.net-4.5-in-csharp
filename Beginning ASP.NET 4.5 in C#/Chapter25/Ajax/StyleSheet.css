@@ -1,0 +1,39 @@
+body 
+{    
+    font-family: Verdana;
+    font-size: small; 
+}
+.Link
+{
+	text-decoration: underline;
+	color: Blue;
+}	
+
+/* Used for AccordionTest.aspx */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #2E4d7B;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed;
+    border-top: none;
+    padding: 5px;
+}
